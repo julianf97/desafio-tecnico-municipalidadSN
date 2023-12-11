@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) { 
+    .nameInputContainer{
+        .errorContainer{
+            width:  80% !important;
+            height: 15px;
+            display: flex;
+            padding-top: 5px;
+            justify-content: center;
+            align-items: center;
+            span{
+                color: rgb(177, 0, 0);
+                margin-left: 5px;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.nameInputContainer{
+    .errorContainer{
+        width: 60%;
+        height: 15px;
+        display: flex;
+        padding-top: 5px;
+        span{
+            color: rgb(177, 0, 0);
+            margin-left: 5px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+    }
+}

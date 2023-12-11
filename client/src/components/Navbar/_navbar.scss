@@ -1,0 +1,157 @@
+.contenedorPrincipalNavbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s; 
+    z-index: 1000; 
+  
+    .contenedorLogo {
+      width: 200px;
+      height: 100%;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    .contenedorRoutesNavDesktop{
+      width: 400px;
+      height: 100%;
+      @media only screen and (max-width: 670px) { display: none; }
+      .navLista{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        li{
+          color: #ebebeb;
+          font-weight: 550;
+          cursor: pointer;
+          transition: 0.2s;
+        }
+        li:hover{
+          color: #0194da
+        }
+      }
+
+    }
+    .contenedorSalir {
+      span {
+        background: none;
+        border: 0;
+        color: #0194da;
+        cursor: pointer;
+        font: inherit;
+        line-height: normal;
+        overflow: visible;
+        padding: 0;
+      }
+  
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .hamburger-react {
+        display: none;
+      }
+      .salir{
+        font-size: 1.2rem;
+      }
+      .hamburguesa {
+        color: #0194da;
+      }
+    }
+    .contenedorMobileNav{
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 670px) {
+    .contenedorPrincipalNavbar {
+      .contenedorLogo {
+        width: 140px !important;
+      }
+  
+      .contenedorSalir {
+        width: 130px !important;
+        .hamburger-react {
+          display: flex;
+        }
+        .salir{
+            display: none;
+        }
+      }
+
+      .contenedorMobileNav{
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 100vh;
+        background-color: #0c0c0c;
+        .logoMobileNavbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 59px;
+            background-color: rgba(0, 0, 0, 0.363);
+            border-bottom: 1px solid #0194da;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .contenedorNavRoutes{
+          width: 100%;
+          height: 50%;
+          ul{
+            width: 100%;
+            height: 100%;
+            li{
+              height: 33% !important;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #0194da;
+              font-weight: 550;
+              cursor: pointer;
+              transition: 0.2s;
+            }
+            li:hover{
+              background-color: #0194da;
+              color: #fff;
+            }
+          }
+        }
+        .contenedorSalirNavMobile{
+          width: 100%;
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 150px;
+          span {
+            background: none;
+            border: 0;
+            color: #0194da;
+            cursor: pointer;
+            font: inherit;
+            line-height: normal;
+            overflow: visible;
+            padding: 0;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }

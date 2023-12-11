@@ -1,0 +1,28 @@
+@import "./sweetAlert";
+
+.principalContainer{
+  width: 100%;
+  height: 100vh;
+  background-image: url("/src/assets/repository-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .tituloContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    h1{
+      color: #0194da;
+      font-size: 4rem;
+      user-select: none;
+    }
+  }
+}
+

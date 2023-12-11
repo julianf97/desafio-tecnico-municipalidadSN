@@ -1,0 +1,17 @@
+.hipervinculo{
+    text-decoration: none !important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;          
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #141414     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0194da;   
+    border-radius: 20px;      
+    border: 3px solid #141414 
+  }

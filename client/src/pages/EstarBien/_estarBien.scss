@@ -1,0 +1,29 @@
+.principalContainer {
+    width: 100%;
+    height: auto;
+    background-image: url("/src/assets/repository-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+  }
+  
+  .react-wrapper {
+    position: relative;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  body.hide-scroll {
+    overflow-y: hidden !important;
+  }

@@ -1,0 +1,128 @@
+.contenedor-cruz-alert{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .contenedor-logo-alert{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 70%;
+        height: 100%;
+        object-fit: contain;
+    }
+  }
+  
+  .contenedor-titulo-alert{
+    width: 100%;
+    height: 50px;
+    h2{
+        color: #ededed;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+  }
+  
+  .contenedor-titulo-alert{
+    margin-top: 20px;
+    h3{
+      @media screen and (max-width: 600px) {
+        font-size: 1.2rem;
+      }  
+        color: #ededed;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+  }
+  
+  .contenedor-btn-alert{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+      background: #0194da;
+      border-radius: 0;
+      box-shadow: none;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      padding: 0.75rem 2.125rem;
+      position: relative;
+      text-align: center;
+      transition: all .6s ease;
+      min-width: 190.5px;
+      padding: 1rem 2.125rem;
+      display:block;
+      margin-right: 1px;
+      height: 50px;
+      text-align: center !important;
+      outline: none !important;
+      a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #ededed;
+        font-weight: 600;
+        margin-top: 5px;
+      }
+    }
+  }
+  
+  .swal2-container.swal2-center>.swal2-popup {
+    border: 1px solid rgba(48, 48, 48, 0.15);
+    border-radius: 0% !important;
+  }
+  .swal2-styled.swal2-confirm {
+    background-color: #ba9353 !important;
+    border-radius: 0% !important;
+    display: none !important;
+  }
+  
+  .buttonAlert {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+  }
+  .boton-readmore-mobile:hover{
+    background-color: #ba9353 !important;
+  }
+  .joinnow-desktop{
+    transition: all 1s ease !important;
+    h5{
+        font-weight: 600;
+    }
+  }
+  .joinnow-desktop:hover{
+    background-color: #ffffff !important;
+    color: #000000  !important;
+    h5{
+        color: #000;
+    }
+  }
+  .swal2-timer-progress-bar{
+    display: block !important;
+    background-color: #0194da !important;
+}
+.swal2-close{
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 32px !important;
+    margin-right: 30px !important;
+    margin-top: 20px !important;
+}
+.swal2-close:hover{
+    color: #c7c7c7 !important;
+}
+.swal2-actions{
+    display: none !important;
+}
